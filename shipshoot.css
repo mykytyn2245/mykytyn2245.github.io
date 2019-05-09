@@ -1,0 +1,33 @@
+/**
+ * shipshoot.css
+ */
+
+#Game {
+	margin: 0 auto;
+	width: 400px;
+	height: 300px;
+	border: 1px solid #000;
+	background-color: black;
+}
+
+#Board {
+	position: relative;
+
+}
+
+#Ship {
+	width: 38px;
+	height: 38px;
+	background-image: url(ship.png);
+	position: absolute;
+	top: 260px;
+	left: 0px;
+}
+
+.eship {
+	width: 38px;
+	height: 38px;
+	background-image: url(eship_1.png);
+	position: absolute;
+	top: 0px;
+}
